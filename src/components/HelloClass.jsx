@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 class ClassHello extends React.Component {
     render() {
         this.props.name = "Tom";

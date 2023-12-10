@@ -1,3 +1,5 @@
+import React, { Component } from "react";
+
 function Hello(props) {
     return <div>
               <p>Имя: {props.name}</p>

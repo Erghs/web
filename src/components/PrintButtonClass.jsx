@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 class PrintButton extends React.Component {
               
     constructor(props) {

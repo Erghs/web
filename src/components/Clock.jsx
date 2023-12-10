@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 class Clock extends React.Component {
     constructor(props) {
       super(props);

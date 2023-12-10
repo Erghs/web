@@ -5,6 +5,10 @@ import Hello from './components/Hello';
 import { ClickButtonLifeCycle } from './components/ClickButtonLifeCycle';
 import { UserForm } from './components/UserForm';
 import { UserFormNew } from './components/UserFormNew';
+import { ClickButtonHook } from './components/ClickButtonHook';
+import Counter from './components/Counter';
+import User from './components/User';
+import UserData from './components/UserData';
 
 function App() {
   return (
@@ -15,6 +19,11 @@ function App() {
      <UserForm name="" age="0"/>
 
      <UserFormNew/>
+
+     <ClickButtonHook/>
+     <Counter/>
+     <User/>
+     <UserData/>
     </div>
   );
 }
